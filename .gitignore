@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# PDF to Excel Processor - Project specific ignores
+# Sample data and test files
+sample_data/
+
+# Output files (keep only SAMPLE.xlsx as reference)
+output/
+!output/SAMPLE.xlsx
+
+# Extra utility scripts
+combine_excel.py
+create_clean_combined.py
+examine_excel.py
+examine_sample.py
+test_pdf_content.py
+
+# Poppler binaries (should be installed separately)
+poppler/
+poppler.zip
+
+# Temporary Excel files
+~$*.xlsx
+*.tmp
